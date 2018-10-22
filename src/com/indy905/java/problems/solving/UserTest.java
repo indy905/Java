@@ -28,6 +28,8 @@ public class UserTest {
 		public User (String firstName, String lastName) {
 			this.firstName = new String(firstName);
 			this.lastName = new String(lastName);
+//			this.firstName = firstName;
+//			this.lastName = lastName;
 		}
 		
 		public boolean equals (User otherUser) {
@@ -36,6 +38,7 @@ public class UserTest {
 		
 		private boolean match(String origin, String compare) {
 			return origin == compare && origin.equals(compare);
+			//return origin.equals(compare);
 		}
 	}
 
