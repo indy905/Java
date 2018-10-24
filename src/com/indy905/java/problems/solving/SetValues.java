@@ -7,6 +7,7 @@ package com.indy905.java.problems.solving;
 
 public class SetValues {
 
+
 	public static void main(String[] args) {
 		String stringObj = "Hello";
 		int intValue = 0;
@@ -16,14 +17,39 @@ public class SetValues {
 
 		System.out.println( stringObj + ", " + intValue + ", " + floatObj );
 	}
-	
+
 	private static void setValues(String strValue, int intValue, Float floatObj) {
-		strValue.replace("H", "h");
+		String aa = strValue.replace("H", "h");
+		System.out.println("1 : " + aa +", "+  strValue + ", " + intValue + ", " + floatObj );
 		strValue += " World";
+		System.out.println("2 : " + aa +", "+strValue + ", " + intValue + ", " + floatObj );
 		intValue = 99;
-		floatObj.valueOf((float) 2.0);
+		System.out.println("3 : " + aa +", "+strValue + ", " + intValue + ", " + floatObj );
+		Float bb = floatObj.valueOf((float) 2.0);
+		System.out.println("4 : " + aa +", "+strValue + ", " + intValue + ", " + floatObj + ", " + bb);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
  * 정답 : 

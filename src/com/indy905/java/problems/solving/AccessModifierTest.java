@@ -18,7 +18,7 @@ public class AccessModifierTest {
     	//Hello test2 = new Hello();
     	//bString = "hello";
     	String aaa;
-    	System.out.println(toInt(aaa));
+    	//System.out.println(toInt(aaa));
 	}
     
     public static int toInt(String aaa){

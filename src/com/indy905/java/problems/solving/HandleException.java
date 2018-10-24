@@ -6,29 +6,36 @@ package com.indy905.java.problems.solving;
  */
 
 public class HandleException {
-
-	public static void main(String[] args) {
-		String number = null;
-		System.out.println( toInt(number) );
-		number = "9,900";
-		System.out.println( toInt(number) );
-		number = "10";
-		System.out.println( toInt(number) );
-	}
-	
-	public static int toInt(String strValue) {
-		if (strValue == null || strValue.length() <= 0) {
-			throw new IllegalArgumentException();
+	 class Inner{
+		public void exec(){
+			System.out.println("hello");
 		}
-		int intValue = 0;
-		try {
-			intValue = Integer.parseInt(strValue);
-		} catch (Exception ex) {
-			intValue = 0;
-		}
-		return intValue;
 	}
 
+//	public static void main(String[] args) {
+//		HandleException.Inner instance = new HandleException.Inner();
+//	}
+//	public static void main(String[] args) {
+//		String number = null;
+//		System.out.println( toInt(number) );
+//		number = "9,900";
+//		System.out.println( toInt(number) );
+//		number = "10";
+//		System.out.println( toInt(number) );
+//	}
+//
+//	public static int toInt(String strValue) {
+//		if (strValue == null || strValue.length() <= 0) {
+//			throw new IllegalArgumentException();
+//		}
+//		int intValue = 0;
+//		try {
+//			intValue = Integer.parseInt(strValue);
+//		} catch (Exception ex) {
+//			intValue = 0;
+//		}
+//		return intValue;
+//	}
 }
 
 /*

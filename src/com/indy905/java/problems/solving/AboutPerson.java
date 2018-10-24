@@ -10,22 +10,22 @@ import jdk.internal.dynalink.beans.StaticClass;
 public class AboutPerson {
 	public static void main(String[] args) {
 		//1
-		static int argsCount = args.length;
-		//2
-		Person aPerson = new Person();
-		//3
-		aPerson.setAge(10);
-		//4
-		aPerson.setName("Alice");
-		//5
-		Person bPerson = new Person();
-		//6
-		bPerson.age = 10;
-		//7
-		bPerson.name = "John";
-		
-		print(aPerson);
-		print(bPerson);
+//		static int argsCount = args.length;
+//		//2
+//		Person aPerson = new Person();
+//		//3
+//		aPerson.setAge(10);
+//		//4
+//		aPerson.setName("Alice");
+//		//5
+//		Person bPerson = new Person();
+//		//6
+//		bPerson.age = 10;
+//		//7
+//		bPerson.name = "John";
+//
+//		print(aPerson);
+//		print(bPerson);
 	}
 	
 	

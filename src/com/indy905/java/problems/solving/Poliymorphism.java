@@ -12,8 +12,8 @@ public class Poliymorphism {
 	}
 
 	public static void main(String[] args) {
-		Poliymorphism po = new Derived();
-		po.f();
+//		Poliymorphism po = new Derived();
+//		po.f();
 
 	}
 	

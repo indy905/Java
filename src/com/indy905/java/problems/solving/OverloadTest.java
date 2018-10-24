@@ -28,9 +28,9 @@ public class OverloadTest {
 	}
 
 	public class Apple extends Fruits {
-		public String getName() {
-			return "Apple";
-		}
+		//public String getName() {
+		//	return "Apple";
+		//}
 	}
 
 }
